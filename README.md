@@ -12,7 +12,7 @@ Source-to-source compilation allows the direct analysis and transformation of th
 
 CORAL (C Ownership with Rust-like Analysis and Lifetimes) is a prototype Borrow Checker implementing a subset of the analysis and transformations proposed in the master's thesis. It serves as a proof of concept of the core ideas presented, as well as a basis to further cover more of the Rust Borrow Checker features and C language constructs. It partially implements a source-to-source Borrow Checker for C, inspired by Rust's MIR Borrow Checker, capable of enforcing single ownership and strict pointer aliasing rules, in the form of borrowing. These rules are enforced through static analysis and the application of transformations to the source code. This allows us to approximate a subset of C to Rust's core concepts, applying the memory safety guarantees of the rustc compiler to C.
 
-## Dependancies
+## Dependencies
 
 - [Clava](https://github.com/specs-feup/clava)
 
